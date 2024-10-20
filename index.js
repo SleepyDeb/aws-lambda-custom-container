@@ -4,4 +4,4 @@ async function handler(event, context) {
     return { Status: 'Ok!' };
 }
 
-modules.exports = { handler }
+module.exports = { handler }
